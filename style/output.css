@@ -12,9 +12,13 @@ body {
   font-family: sans-serif;
 }
 
+.container {
+  padding: 0px 26px;
+}
+
 nav {
   display: flex;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
 }
 
 nav a {
@@ -29,7 +33,6 @@ nav a {
 
 .main-title {
   font-size: 60px;
-  padding: 0px 25px;
   margin: 0;
   letter-spacing: -4px;
   line-height: 59px;
