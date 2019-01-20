@@ -1,15 +1,44 @@
+@import 'reset';
 @import 'colors';
 
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
+
+// ---- HOME PAGE ---- //
+
+nav {
+  display: flex;
+  margin-bottom: 45px;
 }
 
-body {
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+}
+
+.current-home-link {
+  color: $bleuCanard;
+}
+
+
+.main-title {
+  font-size: 60px;
+  padding: 0px 25px;
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  letter-spacing: -4px;
+  line-height: 59px;
 }
 
+.main-title sup {
+  font-size: 25px;
+}
+
+
+
+
+
+
+// ---- ABOUT PAGE ---- //
+
+.current-about-link {
+  color: $bleuCanard;
+}

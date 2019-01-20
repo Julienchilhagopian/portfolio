@@ -12,4 +12,35 @@ body {
   font-family: sans-serif;
 }
 
+nav {
+  display: flex;
+  margin-bottom: 45px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+}
+
+.current-home-link {
+  color: #0b5a9a;
+}
+
+.main-title {
+  font-size: 60px;
+  padding: 0px 25px;
+  margin: 0;
+  letter-spacing: -4px;
+  line-height: 59px;
+}
+
+.main-title sup {
+  font-size: 25px;
+}
+
+.current-about-link {
+  color: #0b5a9a;
+}
+
 /*# sourceMappingURL=output.css.map */
