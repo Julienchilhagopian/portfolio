@@ -9,7 +9,7 @@
 
 nav {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 nav a {
@@ -34,10 +34,14 @@ nav a {
   font-size: 25px;
 }
 
+.catchy-title span {
+  color: $bleuCanard;
+}
+
 .catchy-intro aside {
-  margin: 10px 0px 0px 0px;
+  margin: 13px 50px 0px 0px;
   padding-left: 120px;
-  font-size: 8px;
+  font-size: 7px;
 }
 
 
