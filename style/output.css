@@ -31,15 +31,21 @@ nav a {
   color: #0b5a9a;
 }
 
-.main-title {
-  font-size: 60px;
+.catchy-title {
+  font-size: 62px;
   margin: 0;
   letter-spacing: -4px;
   line-height: 59px;
 }
 
-.main-title sup {
+.catchy-title sup {
   font-size: 25px;
+}
+
+.catchy-intro aside {
+  margin: 10px 0px 0px 0px;
+  padding-left: 120px;
+  font-size: 8px;
 }
 
 .current-about-link {
