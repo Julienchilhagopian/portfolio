@@ -47,9 +47,17 @@ nav a {
 }
 
 .catchy-intro aside {
-  margin: 13px 50px 0px 0px;
+  margin: 13px 50px 16px 0px;
   padding-left: 120px;
   font-size: 7px;
+}
+
+.arrow {
+  text-align: center;
+}
+
+.arrow img {
+  width: 30px;
 }
 
 .current-about-link {
