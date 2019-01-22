@@ -74,7 +74,18 @@ nav a {
 }
 
 .about-content p {
-  line-height: 28px;
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 53px;
+}
+
+.about-content a {
+  color: #1170bd;
+  text-decoration: none;
+  border: 2px solid #1170bd;
+  padding: 9px 26px;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=output.css.map */
