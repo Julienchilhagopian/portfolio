@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  padding: 0px 26px;
+  padding: 0px 20px;
 }
 
 nav {
@@ -62,6 +62,19 @@ nav a {
 
 .current-about-link {
   color: #1170bd;
+}
+
+.about-content img {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.about-content h1 {
+  margin: 0px 0px 35px;
+}
+
+.about-content p {
+  line-height: 28px;
 }
 
 /*# sourceMappingURL=output.css.map */
