@@ -31,6 +31,10 @@ nav a {
   color: #1170bd;
 }
 
+.catchy-intro {
+  margin-bottom: 60px;
+}
+
 .catchy-title {
   font-size: 62px;
   margin: 0px 0px 19px;
@@ -62,10 +66,48 @@ nav a {
 
 .projects h1 {
   font-size: 30px;
+  margin-bottom: 45px;
 }
 
-.projects img {
+.card img {
   width: 100%;
+  margin-bottom: 10px;
+}
+
+.card hr {
+  border: 1.5px solid black;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-header h3 {
+  margin-bottom: 3px;
+  font-size: 20px;
+}
+
+.card-header p {
+  margin: 0;
+  font-size: 10px;
+}
+
+.card-explaination {
+  margin-bottom: 110px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.tech-logo img {
+  width: 23px;
+  margin: 0px 7px;
+}
+
+.tech-logo {
+  width: min-content;
+  display: flex;
+  align-items: flex-end;
 }
 
 .current-about-link {
