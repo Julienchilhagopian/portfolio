@@ -33,7 +33,7 @@ nav a {
 
 .catchy-title {
   font-size: 62px;
-  margin: 0;
+  margin: 0px 0px 19px;
   letter-spacing: -4px;
   line-height: 59px;
 }
@@ -47,9 +47,9 @@ nav a {
 }
 
 .catchy-intro aside {
-  margin: 13px 50px 16px 0px;
-  padding-left: 120px;
+  padding-left: 183px;
   font-size: 7px;
+  margin-bottom: 20px;
 }
 
 .arrow {
@@ -58,6 +58,14 @@ nav a {
 
 .arrow img {
   width: 30px;
+}
+
+.projects h1 {
+  font-size: 30px;
+}
+
+.projects img {
+  width: 100%;
 }
 
 .current-about-link {
