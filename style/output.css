@@ -138,4 +138,39 @@ nav a {
   font-size: 18px;
 }
 
+footer a {
+  text-decoration: none;
+}
+
+footer hr {
+  border-width: 0.5px;
+  border-color: #0000000f;
+}
+
+.footer-content {
+  padding: 50px 45px;
+  text-align: center;
+}
+
+.footer-content h3 {
+  margin-bottom: 25px;
+  margin-top: 0px;
+}
+
+.footer-content p {
+  line-height: 21px;
+  margin-bottom: 8px;
+}
+
+.footer-mail {
+  display: block;
+  margin-bottom: 25px;
+  color: #1170bd;
+}
+
+.footer-icons img {
+  width: 24px;
+  margin: 0px 16px;
+}
+
 /*# sourceMappingURL=output.css.map */
