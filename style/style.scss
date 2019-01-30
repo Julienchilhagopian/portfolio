@@ -104,6 +104,36 @@ nav a {
   align-items: flex-end;
 }
 
+// ---- HOME PAGE - media queries ---- //
+
+
+@media (min-width: 767px){
+
+.container {
+  padding: 0px 100px;
+}
+
+
+.catchy-title {
+  font-size: 160px;
+  margin: 0px 0px 19px;
+  letter-spacing: -10px;
+  line-height: 128px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
 
 
 
@@ -141,6 +171,20 @@ nav a {
   font-weight: 600;
   font-size: 18px;
 }
+
+
+
+// ---- ABOUT PAGE - Media queries ---- //
+
+@media (min-width: 767px){ 
+
+
+
+
+
+}
+
+
 
 
 

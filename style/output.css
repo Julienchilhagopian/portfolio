@@ -110,6 +110,18 @@ nav a {
   align-items: flex-end;
 }
 
+@media (min-width: 767px) {
+  .container {
+    padding: 0px 100px;
+  }
+
+  .catchy-title {
+    font-size: 160px;
+    margin: 0px 0px 19px;
+    letter-spacing: -10px;
+    line-height: 128px;
+  }
+}
 .current-about-link {
   color: #1170bd;
 }
