@@ -18,6 +18,10 @@ nav a {
   font-size: 11px;
 }
 
+nav ul {
+  padding: 0 25px 0 0;
+}
+
 .current-home-link {
   color: $bleuCanard;
 }
@@ -109,17 +113,37 @@ nav a {
 
 @media (min-width: 767px){
 
-.container {
-  padding: 0px 100px;
-}
+  nav ul {
+    padding: 0 40px 0 0;
+  }
+
+  .container {
+    padding: 0px 100px;
+  }
 
 
-.catchy-title {
-  font-size: 160px;
-  margin: 0px 0px 19px;
-  letter-spacing: -10px;
-  line-height: 128px;
-}
+  .catchy-title {
+    font-size: 160px;
+    margin: 0px 0px 19px;
+    letter-spacing: -10px;
+    line-height: 128px;
+    margin-right: 206px;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .catchy-intro aside {
+    padding-left: unset;
+    margin-bottom: unset;
+    transform: translateX(100%) rotateZ(90deg) translateX(1vw);
+    transform-origin: top left;
+    top: 85px;
+    right: 8px;
+    position: absolute;
+    font-size: 9px;
+  }
 
 
 
