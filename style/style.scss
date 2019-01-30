@@ -151,8 +151,29 @@ nav ul {
 
 
 
+}
 
+@media (min-width: 1000px){
+  .bicilante-card {
+    background-image: url("../images/mockups/Scene_2-v2.png");
+    background-size: cover;
+  }
 
+  .card{
+    height: 605px;
+    padding: 30px 50px 0px 0px;
+  }
+
+  .card-mockup {
+    display: none;
+  }
+
+  .card article {
+    width: 30%;
+    float: right;
+  }
+
+  
 
 
 }
