@@ -73,6 +73,10 @@ nav ul {
   margin-bottom: 45px;
 }
 
+.card {
+  margin-bottom: 110px;
+}
+
 .card img {
   width: 100%;
   margin-bottom: 10px;
@@ -98,7 +102,6 @@ nav ul {
 }
 
 .card-explaination {
-  margin-bottom: 110px;
   line-height: 25px;
   text-align: justify;
 }
@@ -125,10 +128,10 @@ nav ul {
 
   .catchy-title {
     font-size: 160px;
-    margin: 0px 0px 19px;
+    margin: 0px 0px 115px;
     letter-spacing: -10px;
     line-height: 128px;
-    margin-right: 206px;
+    margin-right: 90px;
   }
 
   .arrow {
