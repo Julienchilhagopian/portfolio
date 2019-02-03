@@ -156,7 +156,7 @@ nav ul {
 @media (min-width: 1000px){
   .bicilante-card {
     background-image: url("../images/mockups/bicilant-bg.png");
-    padding: 30px 50px 0px 0px;
+    padding: 30px 60px 0px 0px;
   }
 
   .bicilante-card article {
@@ -165,7 +165,16 @@ nav ul {
 
   .helpvzla-card {
     background-image: url("../images/mockups/help-vzla-bg.png");
-    padding: 30px 0px 0px 50px;
+    padding: 30px 0px 0px 60px;
+  }
+
+  .game-card {
+    background-image: url("../images/mockups/game-bg.png");
+    padding: 30px 60px 0px 0px;
+  }
+
+  .game-card article {
+    float: right;
   }
 
   .card{
