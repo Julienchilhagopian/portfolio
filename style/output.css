@@ -218,6 +218,13 @@ nav ul {
   font-size: 18px;
 }
 
+@media (min-width: 767px) {
+  .about-content img {
+    width: 65%;
+    display: block;
+    margin: 0px auto 70px;
+  }
+}
 footer a {
   text-decoration: none;
 }

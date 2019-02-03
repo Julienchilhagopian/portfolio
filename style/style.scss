@@ -228,8 +228,11 @@ nav ul {
 
 @media (min-width: 767px){ 
 
-
-
+  .about-content img {
+    width: 65%;
+    display: block;
+    margin: 0px auto 70px;
+  }
 
 
 }
