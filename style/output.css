@@ -12,6 +12,10 @@ body {
   font-family: sans-serif;
 }
 
+* {
+  font-family: Garamond, serif;
+}
+
 .container {
   padding: 0px 20px;
 }
@@ -31,6 +35,10 @@ nav ul {
   padding: 0 25px 0 0;
 }
 
+h3 {
+  font-family: "Lato", sans-serif;
+}
+
 .current-home-link {
   color: #1170bd;
 }
@@ -40,10 +48,13 @@ nav ul {
 }
 
 .catchy-title {
-  font-size: 62px;
-  margin: 0px 0px 19px;
-  letter-spacing: -4px;
-  line-height: 59px;
+  font-family: "Anton", sans-serif;
+  font-size: 70px;
+  margin: 0px;
+  letter-spacing: -1px;
+  line-height: 64px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .catchy-title sup {
@@ -52,12 +63,12 @@ nav ul {
 
 .catchy-title span {
   color: #1170bd;
+  font-family: "Anton", sans-serif;
 }
 
 .catchy-intro aside {
   padding-left: 183px;
   font-size: 7px;
-  margin-bottom: 20px;
 }
 
 .arrow {
@@ -65,7 +76,7 @@ nav ul {
 }
 
 .arrow img {
-  width: 30px;
+  width: 25px;
 }
 
 .projects h1 {
