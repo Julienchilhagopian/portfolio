@@ -27,7 +27,7 @@ nav ul {
 }
 
 h3 {
-  font-family: $Lato-font;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .current-home-link {
@@ -135,10 +135,10 @@ h3 {
   }
 
   .catchy-title {
-    font-size: 160px;
+    font-size: 142px;
     margin: 0px 0px 115px;
-    letter-spacing: -10px;
-    line-height: 128px;
+    letter-spacing: -3px;
+    line-height: 129px;
     margin-right: 90px;
   }
 
@@ -154,12 +154,21 @@ h3 {
     top: 85px;
     right: 8px;
     position: absolute;
-    font-size: 9px;
+    font-size: 10px;
   }
 
 }
 
-@media (min-width: 1000px){
+@media (min-width: 1100px){
+
+  .catchy-title {
+    font-size: 165px;
+    letter-spacing: -5px;
+    line-height: 149px;
+    margin-right: 267px;
+  }
+
+
   .bicilante-card {
     background-image: url("../images/mockups/bicilant-bg.png");
     padding: 30px 60px 0px 0px;
@@ -216,6 +225,7 @@ h3 {
 
 .about-content h1 {
   margin: 0px 0px 35px;
+  font-family: $Helvetica-font;
 }
 
 .about-content p {
@@ -225,6 +235,7 @@ h3 {
 }
 
 .about-content a {
+  font-family: $Helvetica-font;
   color: $bleuCanard;
   text-decoration: none;
   border: 2px solid $bleuCanard;
