@@ -1,7 +1,5 @@
 const catchyTitle = document.querySelector(".js-catchy-title");
-const possibleCharacter = "KJ*ZDZA£%D§ZEKNEZEDF£%ZJ1#LKNJK"
-
-
+const possibleChars = "KJ*ZDZA£%D§ZEKNEZEDF£%ZJ1#LKNJK"
 
 class TextAnimation {
   constructor() {
@@ -16,29 +14,30 @@ class TextAnimation {
 
   changeLetters () {
     const initialText = "testing this new feature";
-    let result = ""
+    let result = "";
   
     for (let i = 0; i < initialText.length + 1 ; i++) {
       result = initialText.substr(0, i);
   
       for (let j = i; j < initialText.length; j++){
-        result += possibleCharacter.charAt(Math.floor(Math.random() * possibleCharacter.length));
+        result += possibleChars.charAt(Math.floor(Math.random() * possibleChars.length));
       }
-      this.show(result);
-      
+      this.show(result, i);
     }
   }
 
-  show(result) {
-    setTimeout(console.log(result), 5000)
+  show(result, i) {
+    setTimeout(function(){
+      catchyTitle.innerHTML = result;
+    }, i * 50);
   }
-
-
-
 
 }
 
 
+document.onreadystatechange = () => {
+  if (document.readyState == "complete") {
+    new TextAnimation();
+  }
+};
 
-
-window.addEventListener("onload", new TextAnimation());
