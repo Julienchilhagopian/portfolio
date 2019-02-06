@@ -275,6 +275,11 @@ h3 {
     margin: 0px auto 70px;
   }
 }
+@media (min-width: 1700px) {
+  .about-content img {
+    margin: 0px auto 160px;
+  }
+}
 footer a {
   text-decoration: none;
 }
