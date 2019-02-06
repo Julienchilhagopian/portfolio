@@ -167,6 +167,10 @@ h3 {
     position: absolute;
     font-size: 10px;
   }
+
+  .card {
+    margin-bottom: 130px;
+  }
 }
 @media (min-width: 1100px) {
   .catchy-title {
