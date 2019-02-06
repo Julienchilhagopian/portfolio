@@ -59,6 +59,8 @@ h3 {
 
 .catchy-title sup {
   font-size: 25px;
+  position: relative;
+  bottom: 15px;
 }
 
 .catchy-title span {
@@ -138,11 +140,17 @@ h3 {
   }
 
   .catchy-title {
-    font-size: 142px;
+    font-size: 120px;
     margin: 0px 0px 115px;
     letter-spacing: -3px;
-    line-height: 129px;
-    margin-right: 90px;
+    line-height: 108px;
+    margin-right: 75px;
+    height: 850px;
+  }
+
+  .catchy-title sup {
+    position: relative;
+    bottom: 45px;
   }
 
   .arrow {
@@ -166,6 +174,7 @@ h3 {
     letter-spacing: -5px;
     line-height: 149px;
     margin-right: 267px;
+    height: 1045px;
   }
 
   .bicilante-card {
