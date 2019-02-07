@@ -253,6 +253,12 @@ h3 {
 .about-content h1 {
   margin: 0px 0px 35px;
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+.about-content h1 span {
+  color: #1170bd;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .about-content p {
@@ -269,6 +275,12 @@ h3 {
   padding: 9px 26px;
   font-weight: 600;
   font-size: 18px;
+  transition: all 0.2s ease-in;
+}
+
+.about-content a:hover {
+  color: white;
+  background-color: #1170bd;
 }
 
 @media (min-width: 767px) {
@@ -277,10 +289,18 @@ h3 {
     display: block;
     margin: 0px auto 70px;
   }
+
+  .about-content h1 {
+    font-size: 23px;
+  }
 }
 @media (min-width: 1700px) {
+  .about-content h1 {
+    font-size: 30px;
+  }
+
   .about-content img {
-    margin: 0px auto 160px;
+    margin: 0px auto 120px;
   }
 }
 footer a {
