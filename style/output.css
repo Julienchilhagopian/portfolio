@@ -145,7 +145,6 @@ h3 {
     letter-spacing: -3px;
     line-height: 108px;
     margin-right: 75px;
-    height: 850px;
   }
 
   .catchy-title sup {
@@ -178,7 +177,6 @@ h3 {
     letter-spacing: -5px;
     line-height: 149px;
     margin-right: 267px;
-    height: 1045px;
   }
 
   .bicilante-card {
@@ -218,6 +216,11 @@ h3 {
   }
 }
 @media (min-width: 1700px) {
+  .catchy-title {
+    font-size: 175px;
+    line-height: 159px;
+  }
+
   .card {
     height: 835px;
   }

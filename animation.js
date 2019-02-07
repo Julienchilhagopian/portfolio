@@ -51,6 +51,9 @@ function heightCalulator(element) {
     case winWidth <= 1500:
     catchyTitle.style.height = `${winWidth - 535}px`;
     break;
+    case winWidth <= 1700:
+    catchyTitle.style.height = `${winWidth - 735}px`;
+    break;
     case winWidth <= 1920:
     catchyTitle.style.height = `${winWidth - 1085}px`;
     break;
