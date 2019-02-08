@@ -340,8 +340,8 @@ h3 {
 // ---- Footer ---- //
 
 
-footer {
-  display: none;//this will be unset when animation is finished
+.home-footer {
+  visibility: hidden;//this will be unset when animation is finished
 }
 
 footer a {

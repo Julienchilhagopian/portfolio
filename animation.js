@@ -3,7 +3,7 @@ const catchyTitleAside = document.querySelector(".js-catchyTitle-aside");
 const catchyTitleArrow = document.querySelector(".js-catchyTitle-arrow");
 const projectsHeader = document.querySelector(".js-project-header");
 const cards = document.querySelectorAll(".card");
-const footer = document.querySelector("footer");
+const footer = document.querySelector(".home-footer");
 
 // Changing letter animation
   changeLetters = () => {
@@ -37,7 +37,7 @@ const footer = document.querySelector("footer");
         catchyTitleArrow.style.visibility = "unset";
         cards.forEach(item => item.style.visibility = "unset");
         projectsHeader.style.visibility = "unset";
-        footer.style.display = "unset";
+        footer.style.visibility = "unset";
       }
 
     }, index * 60);

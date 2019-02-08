@@ -313,8 +313,8 @@ h3 {
     margin: 0px auto 120px;
   }
 }
-footer {
-  display: none;
+.home-footer {
+  visibility: hidden;
 }
 
 footer a {
