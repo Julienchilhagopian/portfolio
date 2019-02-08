@@ -108,9 +108,14 @@ h3 {
   font-size: 10px;
 }
 
-.card-explaination {
+.card-explanation {
   line-height: 25px;
   text-align: justify;
+}
+
+.card-explanation a {
+  text-decoration: none;
+  color: $bleuCanard;
 }
 
 .tech-logo img {
@@ -179,10 +184,22 @@ h3 {
     margin-right: 267px;
   }
 
+  .card{
+    height: 605px;
+    background-size: cover;
+  }
+
+  .card-mockup {
+    display: none;
+  }
+
+  .card article {
+    width: 30%;
+  }
 
   .bicilante-card {
     background-image: url("../images/mockups/bicilant-bg.png");
-    padding: 30px 60px 0px 0px;
+    padding: 10px 35px 0px 0px;
   }
 
   .bicilante-card article {
@@ -203,18 +220,6 @@ h3 {
     float: right;
   }
 
-  .card{
-    height: 605px;
-    background-size: cover;
-  }
-
-  .card-mockup {
-    display: none;
-  }
-
-  .card article {
-    width: 30%;
-  }
 }
 
 

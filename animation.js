@@ -32,7 +32,7 @@ document.onreadystatechange = () => {
 };
 
 
-// Based on most used screen resolution in france
+//Based on most used screen resolution in france
 function heightCalulator(element) {
   let winWidth = window.innerWidth;
   switch(true){
