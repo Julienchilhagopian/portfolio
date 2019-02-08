@@ -1,5 +1,11 @@
 const catchyTitle = document.querySelector(".js-catchy-title");
+const catchyTitleAside = document.querySelector(".js-catchyTitle-aside");
+const catchyTitleArrow = document.querySelector(".js-catchyTitle-arrow");
+const projectsHeader = document.querySelector(".js-project-header");
+const cards = document.querySelectorAll(".card");
+const footer = document.querySelector("footer");
 
+// Changing letter animation
   changeLetters = () => {
     const possibleChars = "POIUYTREZAQSDFGHJKLMNBVCXW"
     const initialText = "Hi ! I am Julien and I'd like to <span>become</span> your next kick ass intern Developer <sup>*</sup>";
@@ -19,43 +25,23 @@ const catchyTitle = document.querySelector(".js-catchy-title");
   show = (result, index) => {
     setTimeout(() => {
       catchyTitle.innerHTML = result;
-    }, index * 55);
+      console.log(index);
+
+      if (index >= 90){ // When Index reaches 90 the animation is almost over so im displaying again all the element needed.
+        catchyTitleAside.style.visibility = "unset";
+        catchyTitleArrow.style.visibility = "unset";
+        cards.forEach(item => item.style.visibility = "unset");
+        projectsHeader.style.visibility = "unset";
+        footer.style.display = "unset";
+      }
+
+    }, index * 60);
   }
 
   
 // load eventListener would not work cause i wanted all pictures to be loaded before animation init 
 document.onreadystatechange = () => {
   if (document.readyState === "complete") {
-    heightCalulator();
     changeLetters();
   }
 };
-
-
-//Based on most used screen resolution in france
-function heightCalulator(element) {
-  let winWidth = window.innerWidth;
-  switch(true){
-    case winWidth <= 375:
-    catchyTitle.style.height = `${winWidth + 140}px`;
-    break;
-    case winWidth <= 768:
-    catchyTitle.style.height = `${winWidth + 80}px`;
-    break;
-    case winWidth <= 1160:
-    catchyTitle.style.height = `${winWidth - 60}px`;
-    break;
-    case winWidth <= 1366:
-    catchyTitle.style.height = `${winWidth - 235}px`;
-    break;
-    case winWidth <= 1500:
-    catchyTitle.style.height = `${winWidth - 535}px`;
-    break;
-    case winWidth <= 1700:
-    catchyTitle.style.height = `${winWidth - 735}px`;
-    break;
-    case winWidth <= 1920:
-    catchyTitle.style.height = `${winWidth - 1085}px`;
-    break;
-  }
-}

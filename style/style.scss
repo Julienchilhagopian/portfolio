@@ -60,12 +60,14 @@ h3 {
 }
 
 .catchy-intro aside {
+  visibility: hidden; //this will be unset when animation is finished
   padding-left: 183px;
   font-size: 7px;
 }
 
 .arrow {
   text-align: center;
+  visibility: hidden; //this will be unset when animation is finished
 }
 
 .arrow img {
@@ -76,12 +78,14 @@ h3 {
 // ---- HOME PAGE - PROJECTS ---- //
 
 .projects h1 {
+  visibility: hidden; //this will be unset when animation is finished
   font-size: 30px;
   margin-bottom: 45px;
 }
 
 .card {
   margin-bottom: 110px;
+  visibility: hidden; //this will be unset when animation is finished
 }
 
 .card img {
@@ -161,6 +165,7 @@ h3 {
   .catchy-intro aside {
     padding-left: unset;
     margin-bottom: unset;
+    display: unset; // in mobile aside is hidden until animation is over not necessary on desktop.
     transform: translateX(100%) rotateZ(90deg) translateX(1vw);
     transform-origin: top left;
     top: 85px;
@@ -189,7 +194,7 @@ h3 {
     background-size: cover;
   }
 
-  .card-mockup {
+  .card-mockup { // mobile version of mockups not needed in desktop
     display: none;
   }
 
@@ -334,6 +339,10 @@ h3 {
 
 // ---- Footer ---- //
 
+
+footer {
+  display: none;//this will be unset when animation is finished
+}
 
 footer a {
   text-decoration: none;

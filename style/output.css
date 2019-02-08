@@ -69,12 +69,14 @@ h3 {
 }
 
 .catchy-intro aside {
+  visibility: hidden;
   padding-left: 183px;
   font-size: 7px;
 }
 
 .arrow {
   text-align: center;
+  visibility: hidden;
 }
 
 .arrow img {
@@ -82,12 +84,14 @@ h3 {
 }
 
 .projects h1 {
+  visibility: hidden;
   font-size: 30px;
   margin-bottom: 45px;
 }
 
 .card {
   margin-bottom: 110px;
+  visibility: hidden;
 }
 
 .card img {
@@ -164,6 +168,7 @@ h3 {
   .catchy-intro aside {
     padding-left: unset;
     margin-bottom: unset;
+    display: unset;
     transform: translateX(100%) rotateZ(90deg) translateX(1vw);
     transform-origin: top left;
     top: 85px;
@@ -308,6 +313,10 @@ h3 {
     margin: 0px auto 120px;
   }
 }
+footer {
+  display: none;
+}
+
 footer a {
   text-decoration: none;
 }
