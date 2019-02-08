@@ -27,8 +27,13 @@ const footer = document.querySelector("footer");
       catchyTitle.innerHTML = result;
       console.log(index);
 
-      if (index >= 90){ // When Index reaches 90 the animation is almost over so im displaying again all the element needed.
-        catchyTitleAside.style.visibility = "unset";
+  
+      if (index >= 90){ 
+        // When Index reaches 90 the animation is almost over so im displaying again all the element needed.
+        // Im doing this because otherwise the user is going to see the content of the web site before the end of the animation. 
+        //As im injecting html content is sticking to the catchy-title before animation ends. 
+        //I could set a height but very hard to maintain with responsiveness.
+        catchyTitleAside.style.visibility = "unset"; 
         catchyTitleArrow.style.visibility = "unset";
         cards.forEach(item => item.style.visibility = "unset");
         projectsHeader.style.visibility = "unset";
