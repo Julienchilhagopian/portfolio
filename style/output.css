@@ -213,12 +213,12 @@ h3 {
 
   .helpvzla-card {
     background-image: url("../images/mockups/help-vzla-bg.png");
-    padding: 30px 0px 0px 60px;
+    padding: 20px 0px 0px 45px;
   }
 
   .game-card {
     background-image: url("../images/mockups/game-bg.png");
-    padding: 30px 60px 0px 0px;
+    padding: 20px 45px 0px 0px;
   }
 
   .game-card article {
