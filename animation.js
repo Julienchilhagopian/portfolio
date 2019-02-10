@@ -26,8 +26,8 @@ const footer = document.querySelector(".home-footer");
     setTimeout(() => {
       catchyTitle.innerHTML = result;
 
-      if (index >= 90){ 
-        // When Index reaches 90 the animation is almost over so im displaying again all the element needed.
+      if (index >= 95){ 
+        // When Index reaches 95 the animation is almost over so im displaying again all the element needed.
         // Im doing this because otherwise the user is going to see the content of the web site before the end of the animation. 
         //As im injecting html, the content its sticking to the catchy-title before animation ends. 
         //I could set a height but very hard to maintain with responsiveness.
@@ -38,7 +38,7 @@ const footer = document.querySelector(".home-footer");
         footer.style.visibility = "unset";
       }
 
-    }, index * 65);
+    }, index * 70);
   }
 
   

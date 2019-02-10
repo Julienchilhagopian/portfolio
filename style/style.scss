@@ -286,7 +286,20 @@ h3 {
   margin-bottom: 53px;
 }
 
-.about-content a {
+.about-content-explanation a, .about-tech span{
+  text-decoration: none;
+  color: $bleuCanard;
+}
+
+.about-content-explanation span {
+  font-weight: 600;
+}
+
+.about-tech {
+  font-style: italic;
+}
+
+.about-resume {
   font-family: $Helvetica-font;
   color: $bleuCanard;
   text-decoration: none;
@@ -297,7 +310,7 @@ h3 {
   transition: all 0.2s ease-in
 }
 
-.about-content a:hover {
+.about-resume:hover {
   color: white;
   background-color: $bleuCanard;
 }
