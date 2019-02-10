@@ -42,12 +42,5 @@ const footer = document.querySelector(".home-footer");
     }, index * 70);
   }
 
-  
-// load eventListener would not work cause i wanted all pictures to be loaded before animation init 
-window.addEventListener('load', changeLetters);
 
-// document.onreadystatechange = () => {
-//   if (document.readyState === "complete") {
-//     changeLetters();
-//   }
-// };
+window.addEventListener('load', changeLetters);
