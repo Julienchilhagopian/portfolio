@@ -71,7 +71,7 @@ h3 {
 .catchy-intro aside {
   visibility: hidden;
   padding-left: 183px;
-  font-size: 13px;
+  font-size: 7px;
 }
 
 .arrow {
@@ -174,7 +174,7 @@ h3 {
     top: 85px;
     right: 8px;
     position: absolute;
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .card {
