@@ -3,6 +3,7 @@ const catchyTitleAside = document.querySelector(".js-catchyTitle-aside");
 const catchyTitleArrow = document.querySelector(".js-catchyTitle-arrow");
 const projectsHeader = document.querySelector(".js-project-header");
 const cards = document.querySelectorAll(".card");
+const img = document.getElementsByClassName("card-mockup");
 const footer = document.querySelector(".home-footer");
 
 // Changing letter animation
@@ -42,4 +43,7 @@ const footer = document.querySelector(".home-footer");
   }
 
 
-window.addEventListener('load', changeLetters);
+  console.log("deployed");
+
+// testing faster event listener.
+img[0].addEventListener('load', changeLetters);
