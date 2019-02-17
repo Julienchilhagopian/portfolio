@@ -43,7 +43,7 @@ const footer = document.querySelector(".home-footer");
   }
 
 
-  console.log("deployed");
+console.log("deployed successful");
 
-// testing faster event listener.
-img[0].addEventListener('load', changeLetters);
+
+window.addEventListener('load', changeLetters);
