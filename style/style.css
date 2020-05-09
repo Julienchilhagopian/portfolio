@@ -17,22 +17,7 @@ body {
 }
 
 .container {
-  padding: 0px 20px;
-}
-
-nav {
-  display: flex;
-  margin-bottom: 35px;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-  font-size: 11px;
-}
-
-nav ul {
-  padding: 0 25px 0 0;
+  padding: 50px 20px 0px 20px;
 }
 
 h3 {
@@ -145,7 +130,7 @@ h3 {
   }
 
   .container {
-    padding: 0px 100px;
+    padding: 50px 100px 0px 100px;
   }
 
   .catchy-title {
@@ -247,85 +232,6 @@ h3 {
     padding: 45px 80px 0px 0px;
   }
 }
-.current-about-link {
-  color: #1170bd;
-}
-
-.about-content {
-  margin-bottom: 160px;
-}
-
-.about-content img {
-  width: 100%;
-  margin-bottom: 35px;
-}
-
-.about-content h1 {
-  margin: 0px 0px 35px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 18px;
-}
-
-.about-content h1 span {
-  color: #1170bd;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-.about-content p {
-  line-height: 30px;
-  font-size: 18px;
-  margin-bottom: 53px;
-}
-
-.about-content-explanation a, .about-tech span {
-  text-decoration: none;
-  color: #1170bd;
-}
-
-.about-content-explanation span {
-  font-weight: 600;
-}
-
-.about-tech {
-  font-style: italic;
-}
-
-.about-resume {
-  font-family: Helvetica, Arial, sans-serif;
-  color: #1170bd;
-  text-decoration: none;
-  border: 2px solid #1170bd;
-  padding: 9px 26px;
-  font-weight: 600;
-  font-size: 18px;
-  transition: all 0.2s ease-in;
-}
-
-.about-resume:hover {
-  color: white;
-  background-color: #1170bd;
-}
-
-@media (min-width: 767px) {
-  .about-content img {
-    width: 65%;
-    display: block;
-    margin: 0px auto 70px;
-  }
-
-  .about-content h1 {
-    font-size: 23px;
-  }
-}
-@media (min-width: 1700px) {
-  .about-content h1 {
-    font-size: 30px;
-  }
-
-  .about-content img {
-    margin: 0px auto 120px;
-  }
-}
 .home-footer {
   visibility: hidden;
 }
@@ -365,4 +271,4 @@ footer hr {
   margin: 0px 16px;
 }
 
-/*# sourceMappingURL=output.css.map */
+/*# sourceMappingURL=style.css.map */
