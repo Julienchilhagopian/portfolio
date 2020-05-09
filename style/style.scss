@@ -6,7 +6,7 @@
 }
 
 .container {
-  padding: 50px 20px 0px 20px;
+  padding: 60px 20px 0px 20px;
 }
 
 // ---- HOME PAGE ---- //
@@ -33,21 +33,9 @@ h3 {
   text-transform: uppercase;
 }
 
-.catchy-title sup {
-  font-size: 25px;
-  position: relative;
-  bottom: 15px;
-}
-
 .catchy-title span {
   color: $bleuCanard;
   font-family: $Anton-font;
-}
-
-.catchy-intro aside {
-  visibility: hidden; //this will be unset when animation is finished
-  padding-left: 183px;
-  font-size: 7px;
 }
 
 .arrow {
@@ -118,6 +106,27 @@ h3 {
   align-items: flex-end;
 }
 
+.j-voting-text {
+  background-color: #e2eaf2;
+  padding: 40px;
+  letter-spacing: 1px;
+}
+
+.j-voting-text p {
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+.j-voting-card article {
+  padding: 15px 0px 0px 0px;
+}
+
+
+
 // ---- HOME PAGE - media queries ---- //
 
 
@@ -127,7 +136,7 @@ h3 {
   }
 
   .container {
-    padding: 50px 100px 0px 100px;
+    padding: 60px 100px 0px 100px;
   }
 
   .catchy-title {
@@ -138,25 +147,16 @@ h3 {
     margin-right: 75px;
   }
 
-  .catchy-title sup {
-    position: relative;
-    bottom: 45px;
-  }
-
   .arrow {
     display: none;
   }
 
-  .catchy-intro aside {
-    padding-left: unset;
-    margin-bottom: unset;
-    display: unset; // in mobile aside is hidden until animation is over not necessary on desktop.
-    transform: translateX(100%) rotateZ(90deg) translateX(1vw);
-    transform-origin: top left;
-    top: 85px;
-    right: 8px;
-    position: absolute;
-    font-size: 13px;
+  .j-voting-text {
+    padding: 90px;
+  }
+  
+  .j-voting-text p {
+    font-size: 40px;
   }
 
   .card {
@@ -167,11 +167,15 @@ h3 {
 
 @media (min-width: 1100px){
 
+  .container {
+    padding: 70px 100px 0px 100px;
+  }
+
   .catchy-title {
     font-size: 165px;
     letter-spacing: -5px;
     line-height: 149px;
-    margin-right: 267px;
+    margin-right: 210px;
   }
 
   .card{
@@ -210,10 +214,47 @@ h3 {
     float: right;
   }
 
+  .j-voting-card {
+    background-color: #e2eaf2;
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  .j-voting-card-content {
+    width: unset;
+  }
+
+  .j-voting-card-content article {
+    width: unset;
+    padding-left: 45px;
+  }
+
+  .j-voting-text {
+    background-color: unset;
+    padding: 20%;
+    display: flex;
+    align-items: center;
+  }
+
+  .j-voting-text p {
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    line-height: 48px;
+    opacity: 90%;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 0px;
+  }
+
 }
 
 
 @media (min-width: 1700px){
+
+  .container {
+    padding: 80px 150px 0px 150px;
+  }
 
   .catchy-title {
     font-size: 175px;
@@ -226,6 +267,10 @@ h3 {
 
   .bicilante-card {
       padding: 45px 80px 0px 0px;
+  }
+  
+  .j-voting-text {
+    padding: 25%;
   }
 
   .helpvzla-card {
