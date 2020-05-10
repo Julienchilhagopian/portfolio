@@ -4,4 +4,4 @@
 --> https://julienchilhagopian.github.io/portfolio/
 
 ## DEV 
-launch  sass --watch .: top compile style.scss
+launch  sass --watch .:    to compile style.scss
