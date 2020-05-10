@@ -29,7 +29,7 @@ h3 {
 }
 
 .catchy-intro {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .catchy-title {
@@ -47,7 +47,19 @@ h3 {
   font-family: "Anton", sans-serif;
 }
 
+.catchy-title span {
+  display: block;
+  margin-bottom: 0em;
+}
+
+.catchy-title span:last-child {
+  display: unset;
+  color: #1170bd;
+  font-family: "Anton", sans-serif;
+}
+
 .arrow {
+  padding-top: 40px;
   text-align: center;
   visibility: hidden;
 }
@@ -88,7 +100,7 @@ h3 {
 
 .card-header p {
   margin: 0;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .card-explanation {

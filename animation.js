@@ -8,7 +8,7 @@ const footer = document.querySelector(".home-footer");
 // Changing letter animation
   changeLetters = () => {
     const possibleChars = "POIUYTREZAQSDFGHJKLMNBVCXW"
-    const initialText = "Bonjour. <br> Je suis Julien. <br> Je souhaite <span>devenir</span> votre prochain apprenti.";
+    const initialText = "Bonjour.<span></span> Je suis Julien.<span></span> Je souhaite <span>devenir</span> votre prochain apprenti.";
     let result = "";
 
       for (let i = 0; i < initialText.length + 1 ; i++) {
