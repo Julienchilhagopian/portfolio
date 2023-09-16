@@ -23,6 +23,10 @@ h3 {
   margin-bottom: 40px;
 }
 
+.catchy-intro img {
+  width: 200px
+}
+
 .catchy-title {
   font-family: $Anton-font;
   font-size: 70px;
@@ -52,7 +56,6 @@ h3 {
 .arrow {
   padding-top: 40px;
   text-align: center;
-  visibility: hidden; //this will be unset when animation is finished
 }
 
 .arrow img {
@@ -63,14 +66,12 @@ h3 {
 // ---- HOME PAGE - PROJECTS ---- //
 
 .projects h1 {
-  visibility: hidden; //this will be unset when animation is finished
   font-size: 30px;
   margin-bottom: 45px;
 }
 
 .card {
   margin-bottom: 110px;
-  visibility: hidden; //this will be unset when animation is finished
 }
 
 .card img {
@@ -108,7 +109,7 @@ h3 {
 }
 
 .tech-logo img {
-  width: 23px;
+  width: 38px;
   margin: 0px 7px;
 }
 
@@ -157,6 +158,14 @@ h3 {
     letter-spacing: -3px;
     line-height: 108px;
     margin-right: 75px;
+  }
+
+  .catchy-intro {
+    display: flex;
+  }
+  
+  .intro-text {
+    padding-left: 45px;
   }
 
   .arrow {
@@ -295,10 +304,6 @@ h3 {
 }
 
 // ---- Footer ---- //
-
-.home-footer {
-  visibility: hidden;//this will be unset when animation is finished
-}
 
 footer a {
   text-decoration: none;

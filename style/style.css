@@ -25,11 +25,15 @@ h3 {
 }
 
 .current-home-link {
-  color: #1170bd;
+  color: rgb(189, 109, 17);
 }
 
 .catchy-intro {
   margin-bottom: 40px;
+}
+
+.catchy-intro img {
+  width: 200px;
 }
 
 .catchy-title {
@@ -43,7 +47,7 @@ h3 {
 }
 
 .catchy-title span {
-  color: #1170bd;
+  color: rgb(189, 109, 17);
   font-family: "Anton", sans-serif;
 }
 
@@ -54,14 +58,13 @@ h3 {
 
 .catchy-title span:last-child {
   display: unset;
-  color: #1170bd;
+  color: rgb(189, 109, 17);
   font-family: "Anton", sans-serif;
 }
 
 .arrow {
   padding-top: 40px;
   text-align: center;
-  visibility: hidden;
 }
 
 .arrow img {
@@ -69,14 +72,12 @@ h3 {
 }
 
 .projects h1 {
-  visibility: hidden;
   font-size: 30px;
   margin-bottom: 45px;
 }
 
 .card {
   margin-bottom: 110px;
-  visibility: hidden;
 }
 
 .card img {
@@ -110,11 +111,11 @@ h3 {
 
 .card-explanation a {
   text-decoration: none;
-  color: #1170bd;
+  color: rgb(189, 109, 17);
 }
 
 .tech-logo img {
-  width: 23px;
+  width: 38px;
   margin: 0px 7px;
 }
 
@@ -147,11 +148,9 @@ h3 {
   nav ul {
     padding: 0 40px 0 0;
   }
-
   .container {
     padding: 60px 100px 0px 100px;
   }
-
   .catchy-title {
     font-size: 120px;
     margin: 0px 0px 115px;
@@ -159,19 +158,21 @@ h3 {
     line-height: 108px;
     margin-right: 75px;
   }
-
+  .catchy-intro {
+    display: flex;
+  }
+  .intro-text {
+    padding-left: 45px;
+  }
   .arrow {
     display: none;
   }
-
   .j-voting-text {
     padding: 90px;
   }
-
   .j-voting-text p {
     font-size: 40px;
   }
-
   .card {
     margin-bottom: 130px;
   }
@@ -180,72 +181,58 @@ h3 {
   .container {
     padding: 70px 100px 0px 100px;
   }
-
   .catchy-title {
     font-size: 165px;
     letter-spacing: -5px;
     line-height: 149px;
     margin-right: 210px;
   }
-
   .card {
     height: 605px;
     background-size: cover;
   }
-
   .card-mockup {
     display: none;
   }
-
   .card article {
     width: 30%;
   }
-
   .bicilante-card {
     background-image: url("../images/mockups/bicilante-bg.png");
     padding: 10px 35px 0px 0px;
   }
-
   .bicilante-card article {
     float: right;
   }
-
   .helpvzla-card {
     background-image: url("../images/mockups/help-vzla-bg.png");
     padding: 20px 0px 0px 45px;
   }
-
   .game-card {
     background-image: url("../images/mockups/game-bg.png");
     padding: 20px 45px 0px 0px;
   }
-
   .game-card article {
     float: right;
   }
-
   .j-voting-card {
     background-color: #e2eaf2;
     display: flex;
     flex-flow: row-reverse;
   }
-
   .j-voting-card-content {
     width: unset;
   }
-
   .j-voting-card-content article {
     width: unset;
     padding-left: 45px;
   }
-
   .j-voting-text {
     background-color: unset;
     padding: 20%;
     display: flex;
     align-items: center;
   }
-
   .j-voting-text p {
     font-size: 40px;
     font-weight: 100;
@@ -261,43 +248,33 @@ h3 {
   .container {
     padding: 80px 150px 0px 150px;
   }
-
   .catchy-title {
     font-size: 175px;
     line-height: 159px;
   }
-
   .card {
     height: 835px;
   }
-
   .bicilante-card {
     padding: 45px 80px 0px 0px;
   }
-
   .j-voting-text {
     padding: 25%;
   }
-
   .helpvzla-card {
     padding: 45px 0px 0px 80px;
   }
-
   .game-card {
     padding: 45px 80px 0px 0px;
   }
 }
-.home-footer {
-  visibility: hidden;
-}
-
 footer a {
   text-decoration: none;
 }
 
 footer hr {
   border-width: 0.5px;
-  border-color: #0000000f;
+  border-color: rgba(0, 0, 0, 0.0588235294);
 }
 
 .footer-content {
@@ -318,7 +295,7 @@ footer hr {
 .footer-mail {
   display: block;
   margin-bottom: 25px;
-  color: #1170bd;
+  color: rgb(189, 109, 17);
 }
 
 .footer-icons img {
