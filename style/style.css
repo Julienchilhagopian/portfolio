@@ -151,121 +151,23 @@ h3 {
   .container {
     padding: 60px 100px 0px 100px;
   }
-  .catchy-title {
-    font-size: 120px;
-    margin: 0px 0px 115px;
-    letter-spacing: -3px;
-    line-height: 108px;
-    margin-right: 75px;
-  }
-  .catchy-intro {
+  .project-content {
     display: flex;
-  }
-  .intro-text {
-    padding-left: 45px;
-  }
-  .arrow {
-    display: none;
-  }
-  .j-voting-text {
-    padding: 90px;
-  }
-  .j-voting-text p {
-    font-size: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   .card {
-    margin-bottom: 130px;
+    width: 46%;
   }
 }
 @media (min-width: 1100px) {
   .container {
     padding: 70px 100px 0px 100px;
   }
-  .catchy-title {
-    font-size: 165px;
-    letter-spacing: -5px;
-    line-height: 149px;
-    margin-right: 210px;
-  }
-  .card {
-    height: 605px;
-    background-size: cover;
-  }
-  .card-mockup {
-    display: none;
-  }
-  .card article {
-    width: 30%;
-  }
-  .bicilante-card {
-    background-image: url("../images/mockups/bicilante-bg.png");
-    padding: 10px 35px 0px 0px;
-  }
-  .bicilante-card article {
-    float: right;
-  }
-  .helpvzla-card {
-    background-image: url("../images/mockups/help-vzla-bg.png");
-    padding: 20px 0px 0px 45px;
-  }
-  .game-card {
-    background-image: url("../images/mockups/game-bg.png");
-    padding: 20px 45px 0px 0px;
-  }
-  .game-card article {
-    float: right;
-  }
-  .j-voting-card {
-    background-color: #e2eaf2;
-    display: flex;
-    flex-flow: row-reverse;
-  }
-  .j-voting-card-content {
-    width: unset;
-  }
-  .j-voting-card-content article {
-    width: unset;
-    padding-left: 45px;
-  }
-  .j-voting-text {
-    background-color: unset;
-    padding: 20%;
-    display: flex;
-    align-items: center;
-  }
-  .j-voting-text p {
-    font-size: 40px;
-    font-weight: 100;
-    letter-spacing: 5px;
-    line-height: 48px;
-    opacity: 90%;
-    font-family: sans-serif;
-    font-weight: bold;
-    letter-spacing: 0px;
-  }
 }
 @media (min-width: 1700px) {
   .container {
     padding: 80px 150px 0px 150px;
-  }
-  .catchy-title {
-    font-size: 175px;
-    line-height: 159px;
-  }
-  .card {
-    height: 835px;
-  }
-  .bicilante-card {
-    padding: 45px 80px 0px 0px;
-  }
-  .j-voting-text {
-    padding: 25%;
-  }
-  .helpvzla-card {
-    padding: 45px 0px 0px 80px;
-  }
-  .game-card {
-    padding: 45px 80px 0px 0px;
   }
 }
 footer a {
