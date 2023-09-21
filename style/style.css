@@ -129,9 +129,16 @@ p {
   text-align: justify;
 }
 
-.card-explanation a {
+a {
+  color: black;
+  font-family: "Alegreya Sans", Helvetica, sans-serif;
+  font-weight: bolder;
   text-decoration: none;
-  color: rgb(189, 109, 17);
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #58D68D;
 }
 
 .skills {
@@ -139,12 +146,12 @@ p {
   font-weight: 500;
 }
 
-.tech-logo img {
+.logos img {
   width: 38px;
   margin: 0px 7px;
 }
 
-.tech-logo {
+.logos {
   width: min-content;
   display: flex;
   align-items: flex-end;

@@ -121,9 +121,16 @@ p {
   text-align: justify;
 }
 
-.card-explanation a {
+a {
+  color: black;
+  font-family: $Corps-font;
+  font-weight: bolder;
   text-decoration: none;
-  color: $bleuCanard;
+  transition: color .3s;
+}
+
+a:hover {
+  color: #58D68D;
 }
 
 .skills {
@@ -131,12 +138,12 @@ p {
   font-weight: 500;
 }
 
-.tech-logo img {
+.logos img {
   width: 38px;
   margin: 0px 7px;
 }
 
-.tech-logo {
+.logos {
   width: min-content;
   display: flex;
   align-items: flex-end;
@@ -239,7 +246,7 @@ footer hr {
   color: $bleuCanard;
 }
 
-.footer-icons img{
+.footer-icons img {
   width: 24px;
   margin: 0px 16px;
 }
