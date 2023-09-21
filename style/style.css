@@ -42,51 +42,12 @@ p {
   font-family: "Alegreya Sans", Helvetica, sans-serif;
 }
 
-.current-home-link {
-  color: rgb(189, 109, 17);
-}
-
 .catchy-intro {
   margin-bottom: 80px;
 }
 
 .catchy-intro img {
   width: 200px;
-}
-
-.catchy-title {
-  font-family: "Oswald", Helvetica, sans-serif;
-  font-size: 70px;
-  margin: 0px;
-  letter-spacing: -1px;
-  line-height: 64px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.catchy-title span {
-  color: rgb(189, 109, 17);
-  font-family: "Oswald", Helvetica, sans-serif;
-}
-
-.catchy-title span {
-  display: block;
-  margin-bottom: 0em;
-}
-
-.catchy-title span:last-child {
-  display: unset;
-  color: rgb(189, 109, 17);
-  font-family: "Oswald", Helvetica, sans-serif;
-}
-
-.arrow {
-  padding-top: 40px;
-  text-align: center;
-}
-
-.arrow img {
-  width: 25px;
 }
 
 .projects h1 {
@@ -157,25 +118,7 @@ a:hover {
   align-items: flex-end;
 }
 
-.j-voting-text {
-  background-color: #e2eaf2;
-  padding: 40px;
-  letter-spacing: 1px;
-}
-
-.j-voting-text p {
-  font-family: sans-serif;
-  font-size: 35px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: white;
-  text-align: center;
-}
-
 @media (min-width: 767px) {
-  nav ul {
-    padding: 0 40px 0 0;
-  }
   .container {
     padding: 60px 100px 0px 100px;
   }

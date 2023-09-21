@@ -31,10 +31,6 @@ p {
   font-family: $Corps-font;
 }
 
-.current-home-link {
-  color: $bleuCanard;
-}
-
 .catchy-intro {
   margin-bottom: 80px;
 }
@@ -42,42 +38,6 @@ p {
 .catchy-intro img {
   width: 200px
 }
-
-.catchy-title {
-  font-family: $Title-font;
-  font-size: 70px;
-  margin: 0px;
-  letter-spacing: -1px;
-  line-height: 64px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.catchy-title span {
-  color: $bleuCanard;
-  font-family: $Title-font;
-}
-
-.catchy-title span {
-  display: block; 
-  margin-bottom: 0em; 
-}
-
-.catchy-title span:last-child {
-  display: unset;
-  color: $bleuCanard;
-  font-family: $Title-font;
-}
-
-.arrow {
-  padding-top: 40px;
-  text-align: center;
-}
-
-.arrow img {
-  width: 25px;
-}
-
 
 // ---- HOME PAGE - PROJECTS ---- //
 
@@ -149,29 +109,9 @@ a:hover {
   align-items: flex-end;
 }
 
-.j-voting-text {
-  background-color: #e2eaf2;
-  padding: 40px;
-  letter-spacing: 1px;
-}
-
-.j-voting-text p {
-  font-family: sans-serif;
-  font-size: 35px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: white;
-  text-align: center;
-}
-
 // ---- HOME PAGE - media queries ---- //
 
-
 @media (min-width: 767px){
-  nav ul {
-    padding: 0 40px 0 0;
-  }
-
   .container {
     padding: 60px 100px 0px 100px;
   }
@@ -202,8 +142,6 @@ a:hover {
   .container {
     padding: 70px 100px 0px 100px;
   }
-
-  
 
 }
 
