@@ -2,7 +2,7 @@
 @import 'colors-fonts';
 
 * {
-  font-family: $Garamond-font;
+  font-family: $Corps-font;
 }
 
 .container {
@@ -11,8 +11,24 @@
 
 // ---- HOME PAGE ---- //
 
+h1 {
+  font-family: $Title-font;
+}
+
+h2 {
+  font-family: $Title-font;
+  font-weight: 300;
+  font-size: 23pt;
+}
+
 h3 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: $Title-font;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+p {
+  font-family: $Corps-font;
 }
 
 .current-home-link {
@@ -20,7 +36,7 @@ h3 {
 }
 
 .catchy-intro {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .catchy-intro img {
@@ -28,7 +44,7 @@ h3 {
 }
 
 .catchy-title {
-  font-family: $Anton-font;
+  font-family: $Title-font;
   font-size: 70px;
   margin: 0px;
   letter-spacing: -1px;
@@ -39,7 +55,7 @@ h3 {
 
 .catchy-title span {
   color: $bleuCanard;
-  font-family: $Anton-font;
+  font-family: $Title-font;
 }
 
 .catchy-title span {
@@ -50,7 +66,7 @@ h3 {
 .catchy-title span:last-child {
   display: unset;
   color: $bleuCanard;
-  font-family: $Anton-font;
+  font-family: $Title-font;
 }
 
 .arrow {
@@ -66,8 +82,9 @@ h3 {
 // ---- HOME PAGE - PROJECTS ---- //
 
 .projects h1 {
-  font-size: 30px;
-  margin-bottom: 45px;
+  font-size: 35pt;
+  letter-spacing: 1px;
+  font-weight: 300;
 }
 
 .card {
@@ -90,12 +107,13 @@ h3 {
 
 .card-header h3 {
   margin-bottom: 3px;
-  font-size: 20px;
+  margin-top: 3px;
 }
 
 .card-header p {
   margin: 0;
   font-size: 13px;
+  letter-spacing: 0.5px;
 }
 
 .card-explanation {
@@ -106,6 +124,11 @@ h3 {
 .card-explanation a {
   text-decoration: none;
   color: $bleuCanard;
+}
+
+.skills {
+  font-style: italic;
+  font-weight: 500;
 }
 
 .tech-logo img {
@@ -134,12 +157,6 @@ h3 {
   text-align: center;
 }
 
-.j-voting-card article {
-  padding: 15px 0px 0px 0px;
-}
-
-
-
 // ---- HOME PAGE - media queries ---- //
 
 
@@ -156,6 +173,15 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  .catchy-intro {
+    display: flex; 
+  }
+
+  .intro-text {
+    padding-left: 50px;
+    max-width: 75%;
   }
 
   .card {
@@ -199,19 +225,17 @@ footer hr {
   text-align: center;
 }
 
-.footer-content h3 {
-  margin-bottom: 25px;
+.footer-content h2 {
+  margin-bottom: 15px;
   margin-top: 0px;
 }
 
 .footer-content p {
-  line-height: 21px;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
 
 .footer-mail {
   display: block;
-  margin-bottom: 25px;
   color: $bleuCanard;
 }
 
